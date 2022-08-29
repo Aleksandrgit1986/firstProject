@@ -6239,10 +6239,18 @@ public class Array {
 //        }
 //        System.out.println(multi);
 
-        //55)
-        int n = scr.nextInt();
-        double a = scr.nextInt();
-        System.out.println(a);
+       // prepare for the test
+        //9
+        System.out.println("input x :");
+        int x = scr.nextInt();
+        System.out.println("input y :");
+        int y = scr.nextInt();
+        double a = x+4;
+        double b = Math.pow(Math.pow(y,2)+4,3);
+        double z = Math.pow(a/b,(double)1/5);
+
+        double m = Math.sin(Math.pow(x+z,2))+3*z +y/Math.pow(y,2);
+        System.out.println(m);
 
 
 
